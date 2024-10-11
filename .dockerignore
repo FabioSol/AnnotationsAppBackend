@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore config or sensitive information files (if not needed in the container)
+*.env
+*.secret
+
+# Ignore cache and logs
+*.log
+*.cache/
+*.bak
+
+# Ignore tests and development tools
+tests/
+coverage/
+*.cover
+*.egg-info/
+*.pytest_cache/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore git files
+.git/
+.gitignore
